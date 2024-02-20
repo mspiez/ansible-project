@@ -1,7 +1,7 @@
 ---
 plugin: networktocode.nautobot.inventory
 api_endpoint: http://localhost:8080
-validate_certs: True
+validate_certs: False
 config_context: False
 group_by:
   - device_roles
@@ -9,3 +9,4 @@ group_by:
 #   - role: network-edge-router
 device_query_filters:
   - has_primary_ip: 'true'
+
