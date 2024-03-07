@@ -1,6 +1,6 @@
----
 plugin: networktocode.nautobot.inventory
 api_endpoint: http://172.19.0.6:8080
+token: 0123456789abcdef0123456789abcdef01234567
 validate_certs: False
 config_context: False
 group_by:
@@ -9,4 +9,5 @@ group_by:
 #   - role: network-edge-router
 device_query_filters:
   - has_primary_ip: 'true'
+
 
