@@ -1,5 +1,5 @@
 ---
-- name: "DEBUG DEVICE HOSTNAMES"
+- name: "DEBUG DEVICE ATTRIBUTES"
   hosts: all
   gather_facts: no
   tasks:
