@@ -5,4 +5,4 @@
   tasks:
   - name: "DEBUG DEVICE HOSTNAMES"
     debug:
-      msg: "{{ inventory_hostnames }}"
+      msg: "{{ inventory_hostname }}"
