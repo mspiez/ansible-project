@@ -3,6 +3,6 @@
   hosts: all
   gather_facts: no
   tasks:
-  - name: "DEBUG DEVICE HOSTNAMES"
+  - name: "DEBUG DEVICE ATTRIBUTES"
     debug:
       msg: "{{ hostvars[inventory_hostname] }}"
