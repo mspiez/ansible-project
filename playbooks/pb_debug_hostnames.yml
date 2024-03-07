@@ -1,0 +1,8 @@
+---
+- name: "DEBUG DEVICE HOSTNAMES"
+  hosts: all
+  gather_facts: no
+  tasks:
+  - name: "DEBUG DEVICE HOSTNAMES"
+    debug:
+      msg: "{{ inventory_hostnames }}"
